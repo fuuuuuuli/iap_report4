@@ -12,7 +12,7 @@ int main(void)
     printf("===== wave ファイルの内容を表示するプログラム ====\n");
     
     /* wave ファイルの読み込み */
-    load_wave_data( &RIFF1, &fmt1, &data1, "" );
+    load_wave_data( &RIFF1, &fmt1, &data1, "org1.wav" );
     
     /* wave ファイルの内容の表示 */
     printf("\n***** WAVEデータの情報 *****\n");
