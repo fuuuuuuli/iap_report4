@@ -151,7 +151,7 @@ int main()
 
     // waveファイルの保存
     save_wave_data(&RIFF1, &fmt1, &data1, "out1.wav");
-
+    printf("ファイルout1.wavを出力しました。");
     return 0;
 }
 
